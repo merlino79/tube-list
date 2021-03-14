@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: bisque;
+}
+
+.conteiner{
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgb(194, 151, 235);
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+.task{
+  padding: 30px 30px;
+
+}
+
+.task li{
+  list-style: none;
+  padding: 10px 10px;
+
+}
+
+.up-task::before{
+  content: '\1F609';
+  padding: 10px;
+  font-size: 25px;
+ 
+}
+
+.true::before{
+  content: '\2713';
+ 
+  background-color: rgb(226, 240, 240);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px 11px;
+  border: 2px solid lawngreen;
+  
+}
+
+.up-task{
+  font-size: 35px;
+}
+
+.folse::before{
+  content: ' \10102';
+  background-color: rgb(226, 240, 240);
+  border-radius: 50%;
+  padding: 5px;
+  margin: 2px 11px;
+  border: 2px solid rgb(235, 62, 105);
+}
